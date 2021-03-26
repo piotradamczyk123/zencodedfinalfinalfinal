@@ -1,12 +1,16 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import { Helmet } from "react-helmet";
+import Header from "./header.js";
+import Footer from "./footer.js";
+import * as style from "../components/layout.module.scss";
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <Navbar />
-
-      {children}
+    <div className={style.global_wrapper}>
+      <Helmet></Helmet>
+      <Header />
+      <main>{children}</main>
+      <Footer></Footer>
     </div>
   );
 };

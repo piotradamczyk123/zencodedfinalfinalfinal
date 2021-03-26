@@ -1,0 +1,15 @@
+.main_heading {
+  text-align: center;
+  font-family: Orbitron;
+  &__text {
+    font-size: 10.4rem;
+    font-weight: 500;
+    margin-top: 106px;
+    margin-bottom: 32px;
+  }
+
+  &__subtext {
+    font-size: 4.8rem;
+    font-weight: 300;
+  }
+}
