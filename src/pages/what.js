@@ -1,11 +1,12 @@
-import React from "react";
-import { Link } from "gatsby";
+import React, { useEffect } from "react";
+import { Link, navigate } from "gatsby";
 import MainHeading from "../components/heading.js";
 import Layout from "../components/layout.js";
 import "../styles/global.css";
 
 // markup
 const WhatPage = () => {
+  useEffect(() => {});
   return (
     <div>
       <Layout>
