@@ -1,6 +1,4 @@
 .global_wrapper {
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 82px repeat(12, 1fr) 82px;
   grid-template-rows: 1fr;
-  margin-left: 82px;
-  margin-right: 82px;
 }

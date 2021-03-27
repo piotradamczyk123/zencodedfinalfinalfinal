@@ -1,0 +1,23 @@
+.rectangle_container {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.skew_container {
+  background-color: red;
+  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+
+.sub_heading {
+  font-size: 64px;
+  margin-top: 124px;
+  padding: 200px;
+  color: white;
+  font-family: orbitron, sans-serif;
+  font-weight: 100;
+}
