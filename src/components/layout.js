@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <div className={style.global_wrapper}>
       <Helmet></Helmet>
       <Header />
-      <main>{children}</main>
+      <main className={style.main_wrapper}>{children}</main>
       <Footer></Footer>
     </div>
   );
