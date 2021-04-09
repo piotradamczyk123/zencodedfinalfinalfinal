@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
-import { Link, navigate } from "gatsby";
+import React from "react";
+
 import MainHeading from "../components/heading.js";
 import Layout from "../components/layout.js";
 import SubHeadingUp from "../components/sub_headings/sub_heading_up_red";
 import SubHeadingDown from "../components/sub_headings/sub_heading_down_red";
 import "../styles/global.scss";
-import gsap from "gsap";
 
 // markup
 const WhatPage = () => {
@@ -35,14 +34,14 @@ const WhatPage = () => {
           <g
             id="All-(H1-H6)"
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           >
             <g
               id="What"
               transform="translate(-614.000000, -1324.000000)"
-              fill-rule="nonzero"
+              fillRule="nonzero"
             >
               <g id="Group" transform="translate(614.000000, 1324.000000)">
                 <path

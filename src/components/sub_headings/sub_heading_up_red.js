@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import * as style from "./sub_heading_up_red.module.scss";
-import { gsap } from "gsap";
 
 const SubHeadingUp = (props) => {
   const skewstyle = "red";

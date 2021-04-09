@@ -76,7 +76,7 @@ const IndexPage = () => {
 
   return (
     <div className={introStyles.global_wrapper} id="container">
-      <div className={introStyles.container} ref={containerRef}>
+      <div ref={containerRef}>
         <Helmet></Helmet>
         <Header />
 
@@ -91,9 +91,9 @@ const IndexPage = () => {
           <div className={introStyles.rightside}>
             <div id="redbox" className={introStyles.redbox}>
               <ul>
-                <li className={introStyles.redboxtext}>ux</li>
-                <li className={introStyles.redboxtext}>web</li>
-                <li className={introStyles.redboxtext}>code</li>
+                <li>ux</li>
+                <li>web</li>
+                <li>code</li>
               </ul>
             </div>
 

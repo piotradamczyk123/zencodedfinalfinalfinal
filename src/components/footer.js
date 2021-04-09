@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+
 import * as style from "./footer.module.scss";
 
 const Footer = () => {
@@ -7,13 +7,13 @@ const Footer = () => {
     <footer className={style.footer}>
       <ul className={style.ul}>
         <li className={style.li1}>
-          <Link>Contact</Link>
+          <p>Contact</p>
         </li>
         <li className={style.li2}>
-          <Link>Privacy Policy</Link>
+          <p>Privacy Policy</p>
         </li>
         <li className={style.li3}>
-          <Link>Terms of use</Link>
+          <p>Terms of use</p>
         </li>
       </ul>
       <p className={style.follow}>follow us</p>
@@ -23,15 +23,15 @@ const Footer = () => {
           <g
             id="Mobile"
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           >
             <g
               id="What"
               transform="translate(-462.000000, -7241.000000)"
               fill="#FFFFFF"
-              fill-rule="nonzero"
+              fillRule="nonzero"
             >
               <g id="Footer" transform="translate(-170.366344, 6724.301251)">
                 <g id="Group" transform="translate(632.366344, 517.423431)">
@@ -50,15 +50,15 @@ const Footer = () => {
           <g
             id="Mobile"
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           >
             <g
               id="What"
               transform="translate(-617.000000, -7241.000000)"
               fill="#FFFFFF"
-              fill-rule="nonzero"
+              fillRule="nonzero"
             >
               <g id="Footer" transform="translate(-170.366344, 6724.301251)">
                 <g id="Group" transform="translate(787.366344, 517.423431)">
@@ -77,15 +77,15 @@ const Footer = () => {
           <g
             id="Mobile"
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           >
             <g
               id="What"
               transform="translate(-764.000000, -7241.000000)"
               fill="#FFFFFF"
-              fill-rule="nonzero"
+              fillRule="nonzero"
             >
               <g id="Footer" transform="translate(-170.366344, 6724.301251)">
                 <g id="Group" transform="translate(934.366344, 517.423431)">

@@ -6,7 +6,8 @@ import * as style from "../components/layout.module.scss";
 
 const Layout = ({ children }) => {
   return (
-    <div className={style.global_wrapper}>
+    //className={style.global_wrapper} (div below)
+    <div>
       <Helmet></Helmet>
       <Header />
       <main className={style.main_wrapper}>{children}</main>
