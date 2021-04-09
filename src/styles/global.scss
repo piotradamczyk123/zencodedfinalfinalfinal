@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Jura, sans-serif;
+}
+
+.what_h3 {
+  grid-column: 2/8;
+  &__maintext {
+    font-size: 64px;
+    font-family: Orbitron, sans-serif;
+  }
+
+  &__subtext {
+    color: #bd1717;
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 42px;
+  }
+
+  &__subtext2 {
+    grid-column: 2/14;
+    margin-top: 64px;
+    font-family: Orbitron, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    // text-align: center;
+  }
+
+  &__image {
+    grid-column: 8/14;
+    width: 100%;
+  }
+}
+
+.clients_h3 {
+  grid-column: 2/14;
+
+  &__maintext {
+    text-align: center;
+    font-family: Orbitron, sans-serif;
+    font-size: 64px;
+    font-weight: 100;
+    color: #bd1717;
+  }
+}

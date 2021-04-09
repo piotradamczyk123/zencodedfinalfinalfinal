@@ -1,13 +1,16 @@
 import React from "react";
 
 import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 // markup
 const HowPage = () => {
   return (
     <div>
-      <p>How?!</p>
-      <Link to="/">go back!</Link>
+      <Layout>
+        <p>How?!</p>
+        <Link to="/">go back!</Link>
+      </Layout>
     </div>
   );
 };

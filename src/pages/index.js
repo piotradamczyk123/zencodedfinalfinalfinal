@@ -6,7 +6,7 @@ import * as introStyles from "../components/intro.module.scss";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { navigate } from "gatsby";
-import "../styles/global.css";
+import "../styles/global.scss";
 gsap.registerPlugin(ScrollTrigger);
 
 // markup
